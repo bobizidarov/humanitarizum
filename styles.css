@@ -13,6 +13,21 @@ nav {
     text-align: center;
 }
 
+nav a {
+    display: inline-block;
+    width: 25%;
+    margin-right: -4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+nav a.current,
+nav a:hover {
+    font-weight: bold;
+}
+
 h1 {
     text-align: center;
     margin: 55px 0;
